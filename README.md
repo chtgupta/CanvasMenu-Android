@@ -8,11 +8,11 @@ A simple, lightweight and easy to use Android library with lots of customization
 Ideal for minimal design, making complex UI easier to maintain.
 Give your app a brand new menu, coz drawers are too mainstream.
 
-Read instructions before cimplementing into your project.
+Read instructions before implementing into your project.
 It is the initial build so don't expect any more than what's documented.
 More features and flexibility will be added in upcoming builds.
 
-All the options/views shown in the menu are for demonstration purpose only and do not have any reletion with the library itself.
+All the options/views shown in the menu are for demonstration purpose only and do not have any relation with the library itself.
 CanvasMenu has as may implementations as you can imagine.
 Use it as a navigation drawer, toolset or just a menu, choice is yours.
 
@@ -37,9 +37,10 @@ allprojects {
 Step 2. Add the dependency
 
 ```sh
-dependencies {
-	        compile 'com.github.ChahatGupta:CanvasMenu:0.1'
+	dependencies {
+	        compile 'com.github.ChahatGupta:CanvasMenu-Android:0.3'
 	}
+
 ```
 
 ## Elements
