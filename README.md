@@ -18,6 +18,7 @@ Use it as a navigation drawer, toolset or just a menu, choice is yours.
 
 ## Installation
 
+
 Gradle:
 
 Step 1. Add the JitPack repository to your build file
@@ -40,6 +41,8 @@ dependencies {
 ```
 
 ## Elements
+
+> Don't forget to read ``Keep in mind``  before implementations
 
 ## 1. Quarter (the menu UI) : 
 
@@ -144,6 +147,13 @@ setColor(int color)                      //void - changes button color (use only
 setIcon(@DrawableRes int icon)           //void - changes the button icon
 
 ```
+
+## Keep in mind
+
+* Use a FrameLayout as root for CanvasButton and Quarter widgets so they can overlap other views
+* Always use 8 digit color codes while setting colors programatically
+* Don't forget to call the CanvasButton.setCanvas(Quarter quarter) method while using CanvasButton widget
+* This is the initial build and lacks features to alter UI elemet positions, stay tuned, everything will be available soon
 
 Happy compiling!
 
