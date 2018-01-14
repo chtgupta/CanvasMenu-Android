@@ -1,6 +1,7 @@
 # CanvasMenu
 
 > A minimal replacement of Menus, Navigation drawers and Toolsets.
+> API 21 (Android Lollipop 5.0)
 
 A simple, lightweight and easy to use Android library with lots of customizations.
 Ideal for minimal design, making complex UI easier to maintain.
@@ -154,6 +155,7 @@ setIcon(@DrawableRes int icon)           //void - changes the button icon
 * Always use 8 digit color codes while setting colors programatically
 * Don't forget to call the CanvasButton.setCanvas(Quarter quarter) method while using CanvasButton widget
 * Remove the ActionBar if possible, looks a lot better
+* Support for backwards compatibility will be added in upcoming versions
 * This is the initial build and lacks features to alter UI elemet positions, stay tuned, everything will be available soon
 
 Happy compiling!
