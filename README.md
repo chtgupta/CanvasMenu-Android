@@ -153,6 +153,7 @@ setIcon(@DrawableRes int icon)           //void - changes the button icon
 * Use a FrameLayout as root for CanvasButton and Quarter widgets so they can overlap other views
 * Always use 8 digit color codes while setting colors programatically
 * Don't forget to call the CanvasButton.setCanvas(Quarter quarter) method while using CanvasButton widget
+* Remove the ActionBar if possible, looks a lot better
 * This is the initial build and lacks features to alter UI elemet positions, stay tuned, everything will be available soon
 
 Happy compiling!
