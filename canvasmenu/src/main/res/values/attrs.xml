@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Quarter">
+        <attr name="canvasColor" format="color"/>
+        <attr name="canvasOpeningSpeed" format="integer"/>
+        <attr name="canvasClosingSpeed" format="integer"/>
+        <attr name="closeIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CanvasButton">
+        <attr name="buttonColor" format="color"/>
+        <attr name="buttonIcon" format="reference"/>
+    </declare-styleable>
+
+</resources>

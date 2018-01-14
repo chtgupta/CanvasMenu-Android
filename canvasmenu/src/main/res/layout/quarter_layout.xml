@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/menu_button"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_margin="16dp"
-        android:src="@drawable/ic_menu_button"/>
-
-    <RelativeLayout
-        android:visibility="invisible"
-        android:id="@+id/overlay"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#44000000">
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:visibility="invisible"
-        android:padding="16dp"
+    <FrameLayout
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/quarter_menu">
+        android:background="@drawable/quarter_menu"
+        android:padding="16dp"
+        android:translationZ="6dp">
 
         <ImageView
-            android:visibility="visible"
             android:id="@+id/cross"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/ic_cross"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:clickable="true"
-            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+            android:src="@drawable/ic_cross" />
 
-    </RelativeLayout>
+        <ImageView
+            android:id="@+id/menu_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_menu_button"
+            android:visibility="invisible" />
 
-</FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

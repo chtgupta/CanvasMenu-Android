@@ -1,10 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<believe.cht.canvasmenu.Quarter xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="400dp"
-    android:layout_height="400dp"
-    tools:context="believe.cht.canvasmenuexample.MainActivity"
-    android:background="#f00">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
-</believe.cht.canvasmenu.Quarter>
+    <android.support.v7.widget.CardView
+        app:contentPadding="24dp"
+        android:layout_gravity="center"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="48dp"
+        app:cardBackgroundColor="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/quarter_menu"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="CanvasMenu"
+            android:layout_gravity="center_horizontal"/>
+
+        <ScrollView
+            android:layout_marginTop="104dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:text="A simple, lightweight and easy to use Android library with lots of customizations. Ideal for minimal design, making complex UI easier to maintain. Give your app a brand new menu, coz drawers are too mainstream.\n\nRead instructions before cimplementing into your project. It is the initial build so don't expect any more than what's documented. More features and flexibility will be added in upcoming builds.\n\nAll the options shown in the menu are for demonstration purpose only and do not have any reletion with the library itself. CanvasMenu has as may implementations as you can imagine. Use it as a navigation drawer, toolset or just a menu, choice is yours.\n\nHappy compiling!"
+            android:layout_gravity="center_horizontal"/>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+    <believe.cht.canvasmenu.CanvasButton
+        android:id="@+id/canvas_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <believe.cht.canvasmenu.Quarter
+        android:id="@+id/quarter"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="THEME"/>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start|center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/theme_white"
+                        android:layout_marginEnd="8dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="#fff"
+                        android:text="Aa"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:id="@+id/indicator_theme_white"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginBottom="-4dp"
+                        android:visibility="invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:text="\u2022"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/theme_black"
+                        android:layout_marginEnd="8dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="#212121"
+                        android:text="Aa"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/indicator_theme_black"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginBottom="-4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:text="\u2022"
+                        android:textStyle="bold"
+                        android:textColor="#212121"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/theme_red"
+                        android:layout_marginEnd="8dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@color/red"
+                        android:text="Aa"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/indicator_theme_red"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginBottom="-4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:text="\u2022"
+                        android:visibility="invisible"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/theme_blue"
+                        android:layout_marginEnd="8dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@color/colorPrimary"
+                        android:text="Aa"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/indicator_theme_blue"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginBottom="-4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:text="\u2022"
+                        android:visibility="invisible"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="TYPING SPEED"/>
+
+            <com.xw.repo.BubbleSeekBar
+                android:id="@+id/bubbleSeekBar"
+                android:layout_marginTop="16dp"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                app:bsb_auto_adjust_section_mark="true"
+                app:bsb_second_track_color="#212121"
+                app:bsb_section_count="5"
+                app:bsb_section_text_position="below_section_mark"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="true"
+                app:bsb_thumb_text_size="18sp"
+                app:bsb_touch_to_seek="true"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="SOUND"/>
+
+            <com.suke.widget.SwitchButton
+                android:layout_marginTop="16dp"
+                android:id="@+id/switchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:sb_checked_color="#000"/>
+
+        </LinearLayout>
+
+    </believe.cht.canvasmenu.Quarter>
+
+</FrameLayout>
