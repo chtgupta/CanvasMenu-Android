@@ -44,7 +44,7 @@ dependencies {
 
 ## Elements
 
-> Don't forget to read ``Keep in mind``  before implementations
+> Don't forget to read the ``Keep in mind`` section before implementations
 
 ## 1. Quarter (the menu UI) : 
 
@@ -53,18 +53,14 @@ dependencies {
 Add this to your XML layout file
 
 ```sh
-
 <believe.cht.canvasmenu.Quarter
         android:id="@+id/quarter"
         android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:id="@+id/quarter"
-        android:layout_width="400dp"
         android:layout_height="400dp">
-        
+
         <!-- add your views here -->
-        
-      </believe.cht.canvasmenu.Quarter>
+
+    </believe.cht.canvasmenu.Quarter>
 ```
 
 ### Attribules
@@ -154,6 +150,7 @@ setIcon(@DrawableRes int icon)           //void - changes the button icon
 
 * Use a FrameLayout as root for CanvasButton and Quarter widgets so they can overlap other views
 * Keep width and height of Quarter same for best perfornamce
+* Leave the height and width of CanvasButton at wrap_content until I make serious updates for it
 * Always use 8 digit color codes while setting colors programatically
 * Don't forget to call the CanvasButton.setCanvas(Quarter quarter) method while using CanvasButton widget
 * Don't forget to call the Quarter.hideCanvas() methid in the onCreate
@@ -163,8 +160,14 @@ setIcon(@DrawableRes int icon)           //void - changes the button icon
 
 Happy compiling!
 
+## Bugs
+
+Found some? Make sure to read the ``Keep in mind`` section first, if you still feel there's something I need to know, feel free to create an issue.
+
 ## Release History
 
+* 0.2
+    * CHANGE: Added missing files and attributes to the initial build
 * 0.1
     * CHANGE: Initial build
 
