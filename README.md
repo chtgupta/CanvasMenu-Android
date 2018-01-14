@@ -1,4 +1,4 @@
-![](ic_launcher.png) # CanvasMenu
+# CanvasMenu ![](ic_launcher.png)
 
 > A minimal replacement of Menus, Navigation drawers and Toolsets.
 
