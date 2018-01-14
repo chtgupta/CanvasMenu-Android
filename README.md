@@ -26,6 +26,7 @@ Use it as a navigation drawer, toolset or just a menu, choice is yours.
 Gradle:
 
 Step 1. Add the JitPack repository to your build file
+        Add it in your root build.gradle at the end of repositories
 
 ```sh
 allprojects {
@@ -42,8 +43,32 @@ Step 2. Add the dependency
 	dependencies {
 	        compile 'com.github.ChahatGupta:CanvasMenu-Android:0.3'
 	}
-
 ```
+
+Maven
+
+Step 1. Add the JitPack repository to your build file
+
+```sh
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+Step 2. Add the dependency
+
+```sh
+	<dependency>
+	    <groupId>com.github.ChahatGupta</groupId>
+	    <artifactId>CanvasMenu-Android</artifactId>
+	    <version>0.3</version>
+	</dependency>
+```
+
+
 
 ## Elements
 
