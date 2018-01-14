@@ -57,7 +57,7 @@ Add this to your XML layout file
 <believe.cht.canvasmenu.Quarter
         android:id="@+id/quarter"
         android:layout_width="400dp"
-        android:layout_height="400dp">
+        android:layout_height="400dp"
         android:id="@+id/quarter"
         android:layout_width="400dp"
         android:layout_height="400dp">
@@ -153,8 +153,10 @@ setIcon(@DrawableRes int icon)           //void - changes the button icon
 ## Keep in mind
 
 * Use a FrameLayout as root for CanvasButton and Quarter widgets so they can overlap other views
+* Keep width and height of Quarter same for best perfornamce
 * Always use 8 digit color codes while setting colors programatically
 * Don't forget to call the CanvasButton.setCanvas(Quarter quarter) method while using CanvasButton widget
+* Don't forget to call the Quarter.hideCanvas() methid in the onCreate
 * Remove the ActionBar if possible, looks a lot better
 * Support for backwards compatibility will be added in upcoming versions
 * This is the initial build and lacks features to alter UI elemet positions, stay tuned, everything will be available soon
