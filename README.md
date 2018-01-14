@@ -14,7 +14,7 @@ All the options/views shown in the menu are for demonstration purpose only and d
 CanvasMenu has as may implementations as you can imagine.
 Use it as a navigation drawer, toolset or just a menu, choice is yours.
 
-![](header.png)
+![](screen.gif)
 
 ## Installation
 
