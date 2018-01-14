@@ -196,6 +196,8 @@ Found some? Make sure to read the ``Keep in mind`` section first, if you still f
 ## Release History
 
 * 0.2
+    * CHANGE: Fixed errors in test apk
+* 0.2
     * CHANGE: Added missing files and attributes to the initial build
 * 0.1
     * CHANGE: Initial build
