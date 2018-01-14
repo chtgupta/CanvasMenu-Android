@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<believe.cht.canvasmenu.Quarter xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    tools:context="believe.cht.canvasmenuexample.MainActivity"
+    android:background="#f00">
+
+</believe.cht.canvasmenu.Quarter>
