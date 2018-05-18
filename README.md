@@ -91,7 +91,7 @@ Add this to your XML layout file
     </believe.cht.canvasmenu.Quarter>
 ```
 
-### Attribules
+### Attributes
 
 ```sh
 
