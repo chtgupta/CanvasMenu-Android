@@ -40,7 +40,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        compile 'com.github.ChahatGupta:CanvasMenu-Android:0.3'
+	        compile 'com.github.chtgupta:CanvasMenu-Android:0.3'
 	}
 ```
 
@@ -62,7 +62,7 @@ Step 2. Add the dependency
 
 ```sh
 	<dependency>
-	    <groupId>com.github.ChahatGupta</groupId>
+	    <groupId>com.github.chtgupta</groupId>
 	    <artifactId>CanvasMenu-Android</artifactId>
 	    <version>0.3</version>
 	</dependency>
@@ -203,8 +203,8 @@ Found some? Make sure to read the ``Keep in mind`` section first, if you still f
 
 ## Meta
 
-Chahat Gupta – [@i_m_cht](https://twitter.com/i_m_cht) – admin@believe-labs.co
+Chahat Gupta – [@chtgupta](https://chtgupta.github.io) – admin@speakapp.me
 
 Distributed under the Apache 2.0 license. See ``LICENSE`` for more information.
 
-[https://github.com/ChahatGupta/CanvasMenu](https://github.com/ChahatGupta/)
+[https://github.com/chtgupta/CanvasMenu-Android](https://github.com/chtgupta/CanvasMenu-Android)
